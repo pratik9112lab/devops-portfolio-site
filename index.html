@@ -1,11 +1,209 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>DevOps Portfolio</title>
-  </head>
-  <body>
-    <h1>DevOps Portfolio – Pratik Dubey</h1>
-    <p>GitHub Pages test</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pratik Dubey | DevOps Engineer</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #020617, #020617);
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #94a3b8;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #38bdf8;
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #020617;
+      border-radius: 10px;
+      padding: 20px;
+      border: 1px solid #1e293b;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #e5e7eb;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #1e293b;
+      padding: 6px 12px;
+      border-radius: 20px;
+      margin: 5px 5px 0 0;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      background: #020617;
+      padding: 30px;
+      text-align: center;
+      color: #94a3b8;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <header>
+    <h1>Pratik Dubey</h1>
+    <p>Aspiring DevOps Engineer | Cloud | CI/CD | Automation</p>
+    <p>
+      <a href="https://github.com/pratik9112lab" target="_blank">GitHub</a> •
+      <a href="mailto:hello@pratikdubey.com">Email</a>
+    </p>
+  </header>
+
+  <!-- ABOUT -->
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I am a DevOps-focused engineer with hands-on experience in cloud platforms,
+      CI/CD pipelines, automation, and infrastructure troubleshooting.
+      I enjoy building reliable systems, improving deployment workflows,
+      and solving real production issues.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <h2>Core Skills</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Cloud & Platforms</h3>
+        <span class="badge">Azure</span>
+        <span class="badge">AWS</span>
+        <span class="badge">GCP</span>
+        <span class="badge">Cloudflare</span>
+      </div>
+
+      <div class="card">
+        <h3>CI/CD & Automation</h3>
+        <span class="badge">GitHub Actions</span>
+        <span class="badge">Azure DevOps</span>
+        <span class="badge">GitLab CI</span>
+        <span class="badge">Shell Scripting</span>
+      </div>
+
+      <div class="card">
+        <h3>Containers & IaC</h3>
+        <span class="badge">Docker</span>
+        <span class="badge">Kubernetes (Basics)</span>
+        <span class="badge">Terraform</span>
+        <span class="badge">ARM Templates</span>
+      </div>
+
+      <div class="card">
+        <h3>OS & Networking</h3>
+        <span class="badge">Linux</span>
+        <span class="badge">Windows Server</span>
+        <span class="badge">DNS</span>
+        <span class="badge">Load Balancing</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section>
+    <h2>Projects</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>DevOps Portfolio Website</h3>
+        <p>
+          Built and deployed a custom domain website using GitHub Pages,
+          Cloudflare DNS, CI/CD pipelines, and HTTPS.
+        </p>
+        <p><b>Tech:</b> GitHub Pages, DNS, Cloudflare, CI/CD</p>
+      </div>
+
+      <div class="card">
+        <h3>CI/CD for .NET & Angular</h3>
+        <p>
+          Designed CI/CD pipelines for .NET backend and Angular frontend
+          including build, test, and deployment stages.
+        </p>
+        <p><b>Tech:</b> GitHub Actions, Azure DevOps</p>
+      </div>
+
+      <div class="card">
+        <h3>Cloud Networking Labs</h3>
+        <p>
+          Implemented private VM access using NAT, private endpoints,
+          and secure networking concepts.
+        </p>
+        <p><b>Tech:</b> Azure, GCP, Networking</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CERTS -->
+  <section>
+    <h2>Certifications</h2>
+    <div class="card">
+      <p>✔ Oracle Certified Solution Architect Associate </p>
+      <p>✔ Preparing for GCP / DevOps certifications</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section>
+    <h2>Contact</h2>
+    <p>
+      📧 Email: hello@pratikdubey.com <br>
+      💻 GitHub: <a href="https://github.com/pratik9112lab" target="_blank">github.com/pratik9112lab</a>
+    </p>
+  </section>
+
+  <footer>
+    © 2026 Pratik Dubey • DevOps Portfolio
+  </footer>
+
+</body>
 </html>
 
